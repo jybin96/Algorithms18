@@ -8,7 +8,7 @@ public class Solution5 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		String a = sc.next();
-		int parse = Integer.parseInt(a);
+		int parse = Integer.parseInt(a);  //int형으로 바꾸기
 		System.out.println(parse);
 	}
 
