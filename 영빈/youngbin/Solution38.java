@@ -4,11 +4,12 @@ public class Solution38 {
 
 	public static void main(String[] args) {
 		String s = "one4seveneight";
-		String[] s_arr = s.split("[0-9]");
-		
-		for(int i = 0; i < s_arr.length; i++) {
-			System.out.println(s_arr[i]);
-		}
+		String[] word= {"zero" , "one" , "two" , "three" , "four" , "five" , "six" , "seven" , "eight" , "nine"};
+		for (int i = 0; i < word.length; i++) {
+            s = s.replaceAll(word[i], String.valueOf(i));
+        }
+        
+		System.out.println(Integer.parseInt(s));
 
 	}
 
