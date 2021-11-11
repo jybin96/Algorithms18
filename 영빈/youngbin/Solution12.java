@@ -3,7 +3,7 @@ package youngbin;
 public class Solution12 {
 
 	public static void main(String[] args) {
-		
+		//등차수열 찾아보기
 		long answer = -1;
 		int price = 3;
 		int money = 20;
